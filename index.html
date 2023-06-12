@@ -7,32 +7,37 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+
     <!--My CSS-->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>My portfolio / Gusdef</title>
   </head>
-  <>
+  <body id="home">
     <!---navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-warning shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Febriyana Saputra</a>
+        <a class="navbar-brand" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" href="#">Febriyana Saputra</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link"  href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Galery</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -42,9 +47,9 @@
 
     <!---jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/gambar 2.jfif" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/foto1.jfif" width="200" class="img-thumbnail" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" />
       <h1 class="display-4">Gusdef</h1>
-      <p class="lead">Saya Gusdef mahasiswa prodi informatika semester 6 di universitas bali internasional</p>
+      <p class="lead">Saya Gusdef mahasiswa prodi informatika semester 6 di universitas bali internasional.</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -64,17 +69,17 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-4">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quibusdam vitae obcaecati, odit nam beatae accusamus quasi veniam quos quam.</p>
+          <div class="col-md-4">
+            <p>Perkenalkan Nama Ida Bagus Made Febriyana Saputra Saya tinggal di desa ubud Saya Berumur 21 Tahun.Sekarang saya masih menjadi mahasiswa di universitas bali internasional Denpasar-Bali disana Saya Memilih Program Studi Informatika.</p>
           </div>
-          <div class="col-4">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta distinctio neque nisi doloribus est. Ut reprehenderit repellendus provident corporis culpa aperiam ratione tenetur sed eligendi?</p>
+          <div class="col-md-4">
+            <p>saya menekuni salah satu skill yaitu bagian front-end developer adalah seorang profesional yang bertanggung jawab dalam membangun dan mengembangkan bagian depan (front-end) suatu aplikasi atau situs web</p>
           </div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#fd7e14"
+          fill="#8cb6d8"
           fill-opacity="1"
           d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
@@ -85,41 +90,76 @@
     <!--Project-->
     <section id="projects">
       <div class="container">
-<div class="row text-center">
-  <div class="col">
-    <h2>My projects</h2>
-  </div>
-</div>
-<div class="row">
-  <div class="col-4">
-    <div class="card">
-      <img src="img/foto3.jpg" class="card-img-top" alt="projects1">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4">
-    <div class="card">
-      <img src="img/foto3.jpg" class="card-img-top" alt="projects1">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4">
-    <div class="card">
-      <img src="img/foto3.jpg" class="card-img-top" alt="projects1">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My projects</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/foto2.jpg" class="card-img-top" alt="projects1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" />
+              <div class="card-body">
+                <p class="card-text">Saya Sebagai Front-and Developer di Website prodi Informatika Universitas Bali Internasional.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/foto3.jpg" class="card-img-top" alt="projects2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" />
+              <div class="card-body">
+                <p class="card-text">Dalam pengerjaan website minyak ini saya mengerjakan data base,saya menggunkan aplikasi yang bernama My SQL untuk menyimpan data yang di perlukan.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <!--Akhir project-->
 
+    <!--Contacts-->
+    <section id="contact" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>contact me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="1"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Akhir contacts-->
+
+    <!--Footer-->
+    <footer class="bg-primary text-dark text-center pb-4">
+      <p class="text">
+        Saya Adalah Mahasiswa Unbi Semester 6 di universitas bali internasional <a href="https://www.instagram.com/gusdefaja/" class="text-danger fw-bold"> Febriyana Saputra <i class="bi bi-instagram"></i></i></a>
+      </p>
+    </footer>
+    <!--Akhir Footer-->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
