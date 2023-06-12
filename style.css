@@ -1,10 +1,19 @@
-body {
-  min-height: 2000px;
-}
 .jumbotron {
-  padding-top: 4rem;
-  background-color: #fd7e14;
+  padding-top: 6rem;
+  background-color: #8cb6d8;
 }
 #projects {
-  background-color: #fd7e14;
+  background-color: #8cb6d8;
+}
+.jumbotron img {
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+section {
+  padding-top: 5rem;
+}
+footer {
+  padding-top: 3rem;
+  margin-top: 50px;
 }
